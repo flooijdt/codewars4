@@ -5,7 +5,6 @@ fn is_prime(x: i64) -> bool {
     // code here
     let mut counter = 0;
     for i in 1..=x {
-        println!("{:?}", i);
         if x % i == 0 {
             counter += 1;
         }
